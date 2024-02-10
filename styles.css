@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 1em 7.5em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div{
+    display: flex;
+}
+
+.logo{
+    height: 56px;
+    object-fit: cover;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 0 0.5em;
+    font-size: 1.3rem;
+}
+
+.navBtn{
+    margin-left: 0.5em;
+}
+
+main{
+    padding: 1em 7.5em;
+}
+
+.mainSec{
+    margin: 2em auto;
+    text-align: center;
+}
+
+.mainSec button{
+    margin: 0 1em;
+}
+
+.mainText{
+    color: deepskyblue;
+}
+
+.mainSec p{
+    margin: 1em 0;
+}
+
+h3{
+    text-align: center;
+    margin: 1em 0;
+    font-size: 2rem;
+}
+
+.enquireSec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.enquireSec_info{
+    width: 60%;
+}
+
+.enquireSec_formDiv{
+    width: 30%;
+    box-shadow: 0 0 2px 0 black;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enquireSec_mainContent{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+    margin-top: 1.5em;
+}
+
+.enquireSec_mainContent div{
+    width: 10em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 20px 0 20px 0;
+    border: 1px solid black;
+}
+
+.enquireSec_formDiv{
+    padding: 1em 0.5em;
+}
+
+.enquireSec_form div{
+    margin-top: 1em;
+}
+
+.enquireSec_formDiv button{
+    margin-top: 1em;
+}
+
+input{
+    margin-top: 0.5em;
+    padding: 0.3em 0.2em;
+    width: 230px;
+}
+
+.courses{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course{
+    padding: 0.5em;
+    width: 300px;
+    box-shadow: 0 0 5px 0px black;
+}
+
+.courseImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.courseInfo{
+    margin: 0.5em 0;
+}
+
+.courseDurationAndMore{
+    display: flex;
+    justify-content: space-between;
+}
